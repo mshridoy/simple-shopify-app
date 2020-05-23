@@ -48,4 +48,4 @@ $ npm start
 
 #### Go to repo. Then open pricingConfig.json
 
-#### If you want to go for production, just test=true property
+#### If you want to go for production, just remove test=true property
