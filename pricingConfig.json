@@ -1,0 +1,6 @@
+{
+  "name": "Plan Name",
+  "price": 9,
+  "trial_days": 3,
+  "test": true
+}
