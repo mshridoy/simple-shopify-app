@@ -23,11 +23,6 @@ app.post("/create_script_tag", controller.createScriptTag);
 app.post("/delete_script_tag", controller.deleteScriptTag);
 app.get("/script/:id", controller.scriptHandler);
 
-app.use("/test", (req, res) => {
-  console.log(req.body);
-  res.json({ done: true });
-});
-
 // serve front end
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "build", "index.html"));
