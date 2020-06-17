@@ -6,7 +6,7 @@ Fill the following environment variables
 
 ```
 SHOPIFY_API_KEY= # From Shopify Partner Account App
-SHOPIFY_API_SECRET_KEY= # From Shopify Partner Account App
+SHOPIFY_API_SECRET = # From Shopify Partner Account App
 FORWARDING_ADDRESS= # Your end-point api
 MONGODB_URL = You Mongodb url
 ```
