@@ -163,9 +163,9 @@ router.get("/payment_success", async (req, res) => {
 });
 
 router.post("/app_uninstalled", async (req, res) => {
-  const { domain } = req.body;
+  const { myshopify_domain } = req.body;
   await Shop.findOneAndUpdate(
-    { shopName: domain },
+    { shopName: myshopify_domain },
     { isUnInstalled: true, unInstalledDate: Date.now() }
   );
   res.json({ done: true });
